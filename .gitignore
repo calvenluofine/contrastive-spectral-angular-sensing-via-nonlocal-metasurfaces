@@ -1,0 +1,28 @@
+# --- Data & checkpoints (not committed) ---
+*.pt
+*.pth
+checkpoints_angle/
+checkpoints_spectrum/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Envs ---
+.venv/
+venv/
+env/
+
+# --- IDE / tooling ---
+.idea/
+.vscode/
+.claude/
+*.swp
+
+# --- OS ---
+.DS_Store
+Thumbs.db
